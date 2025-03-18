@@ -1,0 +1,44 @@
+.gallery {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .main-image {
+    margin-bottom: 1rem;
+  }
+  
+  .main-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .thumbnails {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .thumb {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .thumb:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+body {
+  background-color: rgba(135, 88, 34, 0.904);
+}
+
+.Text {
+  text-align: center;
+  background-color: rgb(46, 46, 47);
+  color: #a59e9e;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อที่ 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://cdn-icons-png.flaticon.com/512/4608/4608020.png" alt="" height="60px" class="myimg">
+    <br>
+    <div class="todo-container">
+        <h2>My To-Do List</h2>
+        
+        <div class="todo-input">
+          <input type="text" id="taskInput" placeholder="เพิ่มรายการ...">
+          <select id="taskType">
+            <option value="work">งาน</option>
+            <option value="personal">ส่วนตัว</option>
+            <option value="shopping">ช้อปปิ้ง</option>
+          </select>
+          <button id="addTask">เพิ่ม</button>
+        </div>
+        
+        <ul id="taskList">
+          <!-- รายการจะถูกเพิ่มที่นี่ -->
+        </ul>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
